@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bg"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:id="@+id/textOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A New Flipboard"
+            android:textColor="#ffff"
+            android:textSize="23dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:id="@+id/textTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reimagined,with over"
+            android:textColor="#ffff"
+            android:textSize="18dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textOne"/>
+        <TextView
+            android:id="@+id/textTree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="300,000 new topics"
+            android:textColor="#ffff"
+            android:textSize="18dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textTwo"/>
+        <TextView
+            android:id="@+id/textBut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By Continuing you accept the Term of Use and Pricacy Policy"
+            android:textColor="#D7D7D7"
+            android:textSize="12dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"/>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:text="GET STARTED"
+            android:textSize="14dp"
+            android:textColor="#ffff"
+            android:background="#FC2A2A"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textTree"
+            android:layout_marginTop="80dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skip"
+            android:textColor="#D7D7D7"
+            android:textSize="12dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            />
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
