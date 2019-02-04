@@ -63,7 +63,7 @@
             android:text="GET STARTED"
             android:textSize="14dp"
             android:textColor="#ffff"
-            android:background="#FC2A2A"
+            android:background="@drawable/selecter_btn_validate"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/textTree"
