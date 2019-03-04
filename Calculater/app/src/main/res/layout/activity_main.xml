@@ -34,7 +34,7 @@
         android:layout_weight="1"
         android:textAlignment="center"
 
-        android:text="=0"/>
+        android:text="="/>
 </LinearLayout>
 
     <RelativeLayout
